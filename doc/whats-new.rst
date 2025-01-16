@@ -61,7 +61,8 @@ New Features
   underlying array's backend. Provides better support for certain wrapped array types
   like ``jax.numpy.ndarray``. (:issue:`7848`, :pull:`9776`).
   By `Sam Levang <https://github.com/slevang>`_.
-
+- Add new ``errors`` arg to :py:meth:`open_mfdataset` to better handle invalid files.
+  (:issue:`6736`). By `Pratiman Patel <https://github.com/pratiman-91>`_.
 Breaking changes
 ~~~~~~~~~~~~~~~~
 
